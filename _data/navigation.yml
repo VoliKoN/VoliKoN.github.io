@@ -2,6 +2,8 @@
 main:
   # - title: "Quick-Start Guide"
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "Posts by Tag"
+    url: https://nevoef.com/tags/
   - title: "About"
     url: https://nevoef.com/about-me/
   # - title: "Sample Posts"

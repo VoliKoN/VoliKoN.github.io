@@ -10,7 +10,7 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-# theme                  : "minimal-mistakes-jekyll"
+theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
@@ -101,10 +101,10 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "mailto:nevoef@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "https://nevoef.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
@@ -113,7 +113,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/VoliKoN/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -270,13 +270,13 @@ compress_html:
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: "_posts"
       type: posts
     values:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
   - scope:
