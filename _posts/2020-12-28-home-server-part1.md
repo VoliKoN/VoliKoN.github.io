@@ -2,6 +2,9 @@
 title:  "My Home Server - Part 1"
 tags: ["Linux", "Server", "Proxmox", "ZFS"]
 
+header:
+  teaser: /assets/imgs/2020-12-07-home-server-part1/photo_2020-12-28_19-02-21.jpg
+
 gallery:   
   - url: /assets/imgs/2020-12-07-home-server-part1/photo_2020-12-28_19-02-21.jpg
     image_path: /assets/imgs/2020-12-07-home-server-part1/photo_2020-12-28_19-02-21.jpg
