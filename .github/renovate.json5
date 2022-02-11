@@ -1,5 +1,23 @@
 {
   "extends": [
-    "config:base"
-  ]
+    ":enableRenovate",
+    "config:base",
+    ":disableRateLimiting",
+    ":dependencyDashboard",
+    ":semanticCommits",
+    ":separatePatchReleases",
+    "docker:enableMajor",
+    ":enablePreCommit",
+  ],
+  "platform": "github",
+  "username": "gitops-updater[bot]",
+  "repositories": ["VoliKoN/VoliKoN.github.io"],
+  "onboarding": false,
+  "requireConfig": false,
+  "gitAuthor": "rosey-bot <99018933+gitops-updater[bot]@users.noreply.github.com>",
+  "dependencyDashboardTitle": "Renovate Dashboard 🤖",
+  "suppressNotifications": [
+    "prIgnoreNotification"
+  ],
+  "rebaseWhen": "conflicted"
 }
