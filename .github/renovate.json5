@@ -8,7 +8,7 @@
     ":separatePatchReleases",
     "docker:enableMajor",
     ":enablePreCommit",
-    "github>VoliKoN/k3s-gitops//.github/renovate/autoMerge",
+    "github>VoliKoN/VoliKoN.github.io//.github/renovate/autoMerge.json5",
   ],
   "platform": "github",
   "username": "gitops-updater[bot]",
