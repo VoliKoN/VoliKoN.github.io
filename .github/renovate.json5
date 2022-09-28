@@ -6,6 +6,7 @@
     ":dependencyDashboard",
     ":semanticCommits",
     ":separatePatchReleases",
+    ":preserveSemverRanges",
     "docker:enableMajor",
     ":enablePreCommit",
     "github>VoliKoN/VoliKoN.github.io//.github/renovate/autoMerge.json5",
