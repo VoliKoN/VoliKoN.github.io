@@ -1,0 +1,45 @@
+---
+title: "Nevo Efraty"
+layout: splash
+permalink: /
+header:
+  image: /assets/imgs/photo_2022-09-23_03-07-21.jpg
+  overlay_image: /assets/imgs/photo_2022-09-23_03-07-21.jpg
+  overlay_filter: 0.2
+author_profile: true
+feature_row:
+  - image_path: /assets/imgs/photo_2022-11-18_01-43-31.jpg
+    title: "Maker"
+    excerpt: "I have a great passion for making stuff myself, from DIY smart-home appliances to custom servers and electronic instruments."
+    url: /tags/#diy
+    btn_class: btn--primary
+  - image_path: /assets/imgs/nas-pics_20221118_0051_2309.jpg
+    title: "DevOps Engineer"
+    excerpt: "I enjoy setting up virtual and custom-made hardware servers. I usually mess around with services and orchestration platforms, from Docker to Kubernetes and GitOps."
+    url: /tags/#server
+    btn_class: btn--primary
+  - image_path: /assets/imgs/photo_2022-11-18_01-37-48.jpg
+    title: "Traveler"
+    excerpt: "There's nothing I enjoy more than walking in and admiring nature. I also enjoy photographing and long-distance trekking."
+    #url: /teaching/
+    #btn_class: btn--primary
+---
+{% comment %}
+to insert a centered, paragraph with the intro
+{% include feature_row id="intro" type="center" %}
+{% endcomment %}
+
+{% comment %}
+for horizontal 3-column row:
+{% endcomment %}
+{% include feature_row %}
+
+
+<h1>About Me</h1>
+{% assign name = "about-me.md" %}
+  {% if name %}
+  {% assign about_content = site.pages | where: "name", "about-me.md" %}
+  {% for post in about_content %}
+    {{ post.content }}
+  {% endfor %}
+{% endif %}

@@ -1,6 +1,6 @@
 ---
 title:  "Controlling IR Devices From Home Assistant - Part 1"
-tags: ["Home Assistant", "Arduino", "Smart Home", "ESPHome"]
+tags: ["Home Assistant", "Arduino", "Smart Home", "ESPHome", "DIY"]
 
 header:
   teaser: /assets/imgs/2020-08-25-ir-control-part1/IMG_20200825_220235_e.jpg
