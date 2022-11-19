@@ -49,6 +49,7 @@ Although I'm using ZFS which ECC memory is recommended for, I'm not hosting any 
 ### SSD Drive Cage
 
 I now have a total of 5x 2.5\" SSDs on my system:
+
 - 250G - Proxmox hypervisor
 - 2x 250G ZFS raid1 - VMs storage
 - 500G - Linux workstation
