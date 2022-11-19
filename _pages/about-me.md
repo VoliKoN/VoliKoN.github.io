@@ -21,7 +21,7 @@ My main personal interests today are:
 * Electronics - Arduino, PCB Design, Old Analog circuits.
 * 3D Printing - Designing and printing stuff, tinkering, and improving my Ender 3 Pro printer.
 * Home Automation - Custom sensors and Home automation devices in my house, Tasmota flashed Sonoff devices and Home Assistant.
-* Servers, DevOps, and networking - Building and improving my home server, Running and maintaining my Kubernetes home cluster, Improve and securing my home networking setup.
+* Servers, DevOps, and networking - Building and improving my home server, running and maintaining my Kubernetes home cluster, improving and securing my home networking setup.
 * Programming - Python, JS, C/C++, and Arduino.
 
 ## This blog

@@ -42,9 +42,9 @@ To accomplish this I had to acquire some parts and do some modifications.
 
 ### RAM
 
-Firstly I had to upgrade the RAM in the system, I bought 64G of DDR4 3600 non-ECC memory.
+First I had to upgrade the RAM in the system, I bought 64G of DDR4 3600 non-ECC memory.
 
-Although I'm using ZFS which ECC memory is recommended for, I'm not hosting any real critical data and all the important data is backed up to the cloud. So I decided ECC memory is not worth the cost in my case.
+Although I'm using ZFS, for which ECC memory is recommended, I'm not hosting any real critical data and all the important data is backed up to the cloud. So I decided ECC memory is not worth the cost in my case.
 
 ### SSD Drive Cage
 

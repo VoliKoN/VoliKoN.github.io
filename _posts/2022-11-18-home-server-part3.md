@@ -42,11 +42,11 @@ The first two should be power-efficient and silent while the third Gaming PC sho
 
 ## The Compute Server
 
-I choose the Lenovo Tiny m720q with I5-9400t which I got used from eBay.
+I chose the Lenovo Tiny m720q with I5-9400t which I got used from eBay.
 This is one of the only 1L PCs that exist that can accommodate a 10G networking card using its PCIe slot.
 
 It'll be running Proxmox as my home hypervisor and my single-node K8S cluster will reside inside one of the VMs.
-If in the future I'll require more computing or additional K8S nodes I can just buy more PCs like this one.
+In the case that I require more computing or additional K8S nodes in the future, I can just buy more PCs like this one.
 
 My current setup is a single node Kubernetes cluster, deployed using [Flux](https://toolkit.fluxcd.io/). I'm using the genius [Renovate](https://www.mend.io/free-developer-tools/renovate/) tool which automatically opens PRs for me when there's any update to any of the services I run.
 
@@ -58,7 +58,7 @@ The cluster is open-source and you can see it [here](https://github.com/VoliKoN/
 
 Although I could get a pre-made NAS, I wanted to build it myself. Firstly to save costs and also to be able to run custom software and have a lot of RAM for cache.
 
-I used this [excellent case](https://s.click.aliexpress.com/e/_DkV397t) From Ali that allows me to have 6 drives in hot-swappable cages, while still being small and cheap.
+I used this [excellent case](https://s.click.aliexpress.com/e/_DkV397t) From Ali that allows me to have 6 drives in hot-swappable cages, while still being small and inexpensive.
 
 The fans in the case turned out to be loud, so I had to do some ugly hacks and print an adapter to use some silent fans I had laying around. I will put some proper fans I ordered once they arrive.
 

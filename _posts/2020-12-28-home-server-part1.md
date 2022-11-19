@@ -11,12 +11,12 @@ gallery:
   - url: /assets/imgs/2020-12-07-home-server-part1/photo_2020-12-28_19-02-42.jpg
     image_path: /assets/imgs/2020-12-07-home-server-part1/photo_2020-12-28_19-02-42.jpg
 ---
-I've built my home server somewhere around 2017, and It's been working great since then.
-In this post, I'll explain what I had and what I upgraded this time.
+I built my home server somewhere around 2017, and it's been working great since.
+In this post I’ll explain what I originally had, and what I recently upgraded.
 
 ## What I Had
 
-I had the following specs inside an old case I've [modified](https://i.kym-cdn.com/entries/icons/original/000/019/022/download.jpg) to fit an E-ATX motherboard.
+I had the following specs inside an old case that I had [modified](https://i.kym-cdn.com/entries/icons/original/000/019/022/download.jpg) to fit an E-ATX motherboard.
 
 * SuperMicro X8DTL-3F
 * 1x Xeon E5645
@@ -24,7 +24,7 @@ I had the following specs inside an old case I've [modified](https://i.kym-cdn.c
 * 4TB HDD - Main storage
 * 256 ssd - VM storage
 
-I bought a used dual-CPU motherboard with the hope that someday I'll add another CPU and double the performance, this plan turned out to be not power-efficient enough.
+I bought a used dual-CPU motherboard with the hope that someday I'll add another CPU and double the performance. This plan turned out to be not power-efficient enough.
 
 This was running Proxmox and a variety of different VMs. It was running well but was missing a few things:
 
@@ -71,7 +71,7 @@ All of this while being silent and relatively cheap.
 
 The server is now much better and has improved in many aspects, but there are some things I would have done differently.
 
-The SAS Drives, are extremely noisy and produce a huge amount of heat compared to regular SATA drives, I'm not sure I'll choose SAS next time I buy drives. Also, maybe it could be smarter to have 4 bigger drives in a raid-10 compared to the 6 in raid-z2 I have now.
+The SAS Drives are extremely noisy and produce a huge amount of heat compared to regular SATA drives. I'm not sure I'll choose SAS next time I buy drives. Also, maybe it could be smarter to have 4 bigger drives in a raid-10 compared to the 6 in raid-z2 I have now.
 
 RAM, I always need more RAM.
 
