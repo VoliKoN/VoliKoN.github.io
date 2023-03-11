@@ -14,7 +14,6 @@
   "platform": "github",
   "username": "gitops-updater[bot]",
   "repositories": ["VoliKoN/VoliKoN.github.io"],
-  "includeForks": true,
   "onboarding": false,
   "requireConfig": false,
   "gitAuthor": "rosey-bot <99018933+gitops-updater[bot]@users.noreply.github.com>",
